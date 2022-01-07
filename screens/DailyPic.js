@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import { Text, View, Image, ImageBackground, TouchableOpacity, StyleSheet, Alert, Platform, StatusBar, SafeAreaView, Linking, ScrollView } from 'react-native';
 
-// import axios from 'axios';
-// import {axios} from 'axios';
-// import axios from axios;
-// import "axios" from axios;
+ import axios from 'axios';
+
 
 export default class DailyPicScreen extends Component {
     constructor(props) {
@@ -31,25 +29,11 @@ export default class DailyPicScreen extends Component {
 
     renderImage = (url) => {
 
-        // <Image source={{ "uri": url }} 
-        // style={{ width: "100%", height: 300, 
-        //borderRadius: 20, margin: 3 }}>
-        // </Image>
-
-        // <Image source={ "uri": url }
-        // style={{ width: "100%", height: 300, 
-        //borderRadius: 20, margin: 3 }}>
-        // </Image>
         
-        // <Image source={{ "uri"= url }} 
-        // style={{ width: "100%", height: 300, 
-        //borderRadius: 20, margin: 3 }}>
-        // </Image>
-        
-        // <Image require={{ "uri": url }} 
-        // style={{ width: "100%", height: 300, 
-        //borderRadius: 20, margin: 3 }}>
-        // </Image>
+         <Image require={{ "uri": url }} 
+        style={{ width: "100%", height: 300, 
+        borderRadius: 20, margin: 3 }}>
+         </Image>
         
     }
 
